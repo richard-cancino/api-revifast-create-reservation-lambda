@@ -1,0 +1,97 @@
+# ack config file
+.ackrc
+
+# IDE/File System
+*.iml
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+.idea
+
+# devcontainer
+.vscode/settings.json
+.vscode/launch.json
+
+# pyenv local version file
+.python-version
+
+
+# sphinx
+api/views/docs/_site/
+feed/docs/build/
+venmo/fraud/docs/_build
+
+# testing & static analysis
+.coverage
+.noseids
+.pytest_cache
+htmlcov
+nosetests.xml
+parser.out
+parsetab.py
+pylint*.out
+pytest.ini
+tmp
+
+# uml diagrams
+uml_diagrams/*.dot
+uml_diagrams/*.png
+
+# misc/unsorted
+*~
+*#
+*pyc
+*.bak
+*.cloudpushed
+*.egg-info/
+*.log
+*.orig
+*.sw[lmnop]
+.CAPUSER
+.deploy_user
+.env
+.envrc
+.helm/*
+.last_provisioned_version
+.rvmrc
+.slack_user
+.vagrant
+apilog.txt
+/assets_config.py
+/api/assets_config.py
+api/.grunt
+api/_SpecRunner.html
+api/CompiledSpecRunner.html
+api/static/js/tests/junit
+bin/cancel_test_999_999_9999_dev.sh
+bin/cancel_test_999_999_9999_test2.sh
+capvenmo_rsa
+CompiledSpecRunner.html
+DORERUN
+dump/
+httprequests.log
+kubernetes/dev/secrets.yaml
+kubernetes/beta2-datastores/charts
+kubernetes/platform/charts
+node_modules
+parser.out
+parsetab.py
+REPO_LOCATIONS
+requirements.lock
+static/images/imagesets
+static/js/compiled-venmo.js
+static/js/compiled-touch-app-venmo.js
+static/json/emoji
+test.db
+tls.key
+tls.crt
+vagrant.py
+vemplate/js/custom-emoji.js
+vemplate/js/vemplate_templates.js
+venmo-platform
+wheelhouse/
+
+# Bazel output directories
+bazel-*
+/_old
+
